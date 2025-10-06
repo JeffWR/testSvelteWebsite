@@ -7,7 +7,7 @@
     }
 </script>
 
-<h1>Welcome to my Project</h1>
+<h1>WEBPAGE</h1>
 
 <button onclick={whenButtonClicked}>click</button>
 {count}
