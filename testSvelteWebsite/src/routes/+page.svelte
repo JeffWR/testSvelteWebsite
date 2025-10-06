@@ -1,2 +1,16 @@
-<h1>go away to SvelteKit</h1>
-<p>Visit <a href="https://svelte.dev/docs/kit">svelte.dev/docs/kit</a> to read the documentation</p>
+<script>
+    let count = $state(0);
+    let randomtextinput = $state("")
+    const whenButtonClicked = () => {
+        console.log("smth was pressed");
+        count += 1;
+    }
+</script>
+
+<h1>Welcome to my Project</h1>
+
+<button onclick={whenButtonClicked}>click</button>
+{count}
+
+<input type="text" bind:value={randomtextinput} />
+{randomtextinput}
