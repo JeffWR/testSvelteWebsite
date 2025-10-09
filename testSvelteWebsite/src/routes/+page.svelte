@@ -11,6 +11,10 @@
 
 <button onclick={whenButtonClicked}>click</button>
 {count}
+<button onclick={() => count -= 1}>decrease</button>
 
 <input type="text" bind:value={randomtextinput} />
+
 {randomtextinput}
+
+// Run WEBPAGE: npm run dev -- --open
